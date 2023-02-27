@@ -506,7 +506,7 @@ img {
     transition: box-shadow var(--duration) var(--timing-function);
 }
 
-.portfolio-content:hover {
+.portfolio-content:hover,.portfolio-content:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -530,7 +530,7 @@ img {
     transition: transform var(--duration) var(--timing-function);
 }
 
-.portfolio-content:hover .portfolio-img-descr {
+.portfolio-content:hover .portfolio-img-descr,.portfolio-content:focus .portfolio-img-descr {
     transform: translateY(0);
 }
 
